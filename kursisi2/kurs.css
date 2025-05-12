@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Arial, sans-serif;
-  background-image: url(goy.png);
+  background-image: url(goy.PNG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
