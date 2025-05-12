@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="kurs.css">
+  <link rel="shortcut icon" href="Tlogo.png">
+  <title>Добавить объявление</title>
+</head>
+<body>
+  <div class="main-container">
+    <div class="add-listing-form">
+      <h2>Добавить объявление</h2>
+      <form>
+        <div class="form-row">
+          <label for="title">Заголовок:</label>
+          <input type="text" id="title" required>
+        </div>
+        <div class="form-row">
+          <label for="price">Цена:</label>
+          <input type="text" id="price" required>
+        </div>
+        <div class="form-row">
+          <label for="description">Описание:</label>
+          <textarea id="description" required></textarea>
+        </div>
+        <div class="form-row">
+          <label for="image">Изображение:</label>
+          <input type="file" id="image">
+        </div>
+        <button type="submit">Добавить</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Свяжитесь с нами: +994 50 123 45 67</p>
+    <p>info@realestate.az</p>
+  </div>
+</body>
+<script src="kurs.js"></script>
+</html>
